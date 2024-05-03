@@ -2,6 +2,13 @@ body {
   text-align: center;
   margin: 0px;
   padding: 0px;
+
+  /* Fuentes */
+  font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: antialiased;
 }
 
 #header {
@@ -14,15 +21,29 @@ body {
 
 /* Maquetando logo, y marca */
 #logo {
-  width: 35%;
+  width: 30%; /* cambiar a 30% */
   font-size: 30px;
   float: left;
+  margin-top: 35px; /* colocar margen */
 }
 
 #logo img {
   display: block;
   float: left;
   height: 75px;
+  margin-top: -15px; 
+  margin-right: 20px;
+  /* Colocar animaciones */
+  animation: girar infinite 5s linear;
+}
+
+@keyframes girar {
+  from{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
 }
 
 #brand {
@@ -36,3 +57,41 @@ body {
   margin: 0px auto;
   /*centra un elemento*/
 }
+
+.clearfix{
+  width: 75%;
+  margin: 0px auto;
+}
+
+/* Maquetar menú */
+#menu {
+  width: 70%;
+  float: right;
+  font-size: 18px;
+}
+
+#menu ul{
+  line-height: 85px;
+  width: 60%;
+  float: right;
+}
+
+#menu ul li{
+  list-style: none;
+  /* agregar cambios */
+  height: 46px;
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#menu a{
+  text-decoration: none;
+  color: #153448;
+  transition: 300ms all;
+}
+
+#menu a:hover{
+  color: #03AED2;
+}
+
