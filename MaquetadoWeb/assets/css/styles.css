@@ -31,17 +31,17 @@ body {
   display: block;
   float: left;
   height: 75px;
-  margin-top: -15px; 
+  margin-top: -15px;
   margin-right: 20px;
   /* Colocar animaciones */
   animation: girar infinite 5s linear;
 }
 
 @keyframes girar {
-  from{
+  from {
     transform: rotate(0deg);
   }
-  100%{
+  100% {
     transform: rotate(360deg);
   }
 }
@@ -58,7 +58,7 @@ body {
   /*centra un elemento*/
 }
 
-.clearfix{
+.clearfix {
   width: 75%;
   margin: 0px auto;
 }
@@ -70,13 +70,13 @@ body {
   font-size: 18px;
 }
 
-#menu ul{
+#menu ul {
   line-height: 85px;
   width: 60%;
   float: right;
 }
 
-#menu ul li{
+#menu ul li {
   list-style: none;
   /* agregar cambios */
   height: 46px;
@@ -85,13 +85,67 @@ body {
   margin-right: 15px;
 }
 
-#menu a{
+#menu a {
   text-decoration: none;
   color: #153448;
   transition: 300ms all;
 }
 
-#menu a:hover{
-  color: #03AED2;
+#menu a:hover {
+  color: #03aed2;
 }
 
+#slider {
+  width: 100%;
+  background: rgb(22, 121, 171);
+  background: radial-gradient(
+    circle,
+    rgba(22, 121, 171, 1) 39%,
+    rgba(7, 65, 115, 1) 100%
+  );
+  height: 350px;
+  /* line-height: 320px; QUITARLO */
+  color: white;
+  text-shadow: 0px 0px 5px #444;
+}
+
+#slider h1 {
+  margin-top: 0.2px;
+  padding: 0px;
+  padding-top: 115px;
+  text-align: center;
+}
+
+.btn-white {
+  display: block;
+  background: white;
+  color: #868585;
+  padding: 10px;
+  width: 95px;
+  height: 35px;
+  margin: 0px auto;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-shadow: none;
+  text-decoration: none;
+  line-height: 35px;
+  box-shadow: 0px 0px 5px #868585;
+  margin-top: 40px;
+  border-radius: 4px;
+  transition: 300ms all;
+}
+
+.btn-white:hover{
+  background: #444;
+  color: white;
+}
+
+#slider.slider-small{
+  height: 150px;
+}
+
+#slider.slider-small h1{
+  margin-top: 0.2px;
+  padding: 0px;
+  padding-top: 50px;
+}
