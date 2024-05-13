@@ -58,9 +58,10 @@ body {
   /*centra un elemento*/
 }
 
-.clearfix {
-  width: 75%;
-  margin: 0px auto;
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* Maquetar menú */
@@ -148,4 +149,81 @@ body {
   margin-top: 0.2px;
   padding: 0px;
   padding-top: 50px;
+}
+
+/* Maquetar el contenido central */
+#content{
+  width: 70%;
+  float: left;
+  border: 1px solid red;
+  min-height: 650px;
+  margin-right: 20px;
+}
+
+/* Maquetar el contenido lateral */
+#sidebar{
+  width: 25%;
+  float: left;
+  border: 1px solid green;
+}
+
+/* Estilos para cada uno de los sidebar-item */
+.sidebar-item{
+  background: #f7f7f7;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.sidebar-item h3{
+  text-transform: uppercase;
+  font-size: 18px;
+  margin: 0px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 3px solid #eee;
+}
+
+/* CSS para el formulario de búsqueda y botones del sitio web */
+.btn{
+  display: block;
+  background: black;
+  color: white;
+  padding: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-decoration: none;
+  max-width: 120px;
+  transition: 300ms all; /* para usar pseudoclases*/
+  border: none;
+  cursor: pointer;
+}
+
+.sidebar-item .btn{
+  margin: 0px auto;
+  margin-top: 10px;
+}
+
+.btn-success{
+  background: rgba(22, 121, 171, 1) 39%
+}
+
+.btn-success:hover{
+  background-color: black;
+}
+
+/* Maquetar inputs */
+input[type="text"], 
+textarea{
+    width: 100%;
+    height: 30px;
+    border: 1px solid #eee;
+    padding: 3px;
+    margin-bottom: 5px;
+    transition: 300ms all;
+}
+
+input[type="text"]:focus, 
+textarea:focus{
+    box-shadow: 0px 0px 3px #ccc inset;
 }
