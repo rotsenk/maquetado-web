@@ -46,6 +46,7 @@ Podemos descargar una imagen de internet para colocarla, sólo como ejemplo.
   </div>
 </section>
 ```
+## Listar artículos con JS
 
 Podríamos copiar y pegar el código, para simular que tenemos varios artículos pero también podríamos hacer un script de javascript para que se carguen dinámicamente.
 
