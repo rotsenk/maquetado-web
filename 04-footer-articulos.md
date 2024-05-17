@@ -104,3 +104,5 @@ Este script en JavaScript se ejecuta cuando la ventana del navegador se carga co
      - Añade el clon modificado al contenedor de artículos (`articles`).
 
 El resultado de este script es que, una vez que la página se carga completamente, cinco copias de la plantilla de artículo se crean, se modifican (añadiendo un número secuencial al texto del encabezado `<h2>`) y se añaden al contenedor de artículos.
+
+## CSS del listado de artículos

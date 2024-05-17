@@ -239,3 +239,57 @@ textarea:focus{
   margin: 0px;
   padding: 0px;
 }
+
+/* Maquetación de sección de artículos */
+.article-item{
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: left;
+}
+
+.article-item .image-wrap{
+  width: 130px;
+  height: 130px;
+  float: left;
+  margin-right: 15px;
+  border: 1px solid #ccc;
+  overflow: hidden; /* para ocultar todo lo que sobresalga de la imagen*/
+}
+
+.article-item .image-wrap img{
+  height: 100%;
+  text-align: center;
+}
+
+.article-item h2{
+  display: block;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 7px;
+}
+
+.article-item .date{
+  display: block;
+  width: 100%;
+  color: rgb(122, 122, 122);
+}
+
+.article-item a{
+  display: block;
+  color: #444;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.article-item a:hover{
+  text-decoration: underline;
+}
+
+.subheader{
+  font-size: 32px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+}
