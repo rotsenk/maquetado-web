@@ -394,6 +394,7 @@ Con esto, ya tenemos maquetado el formulario
 ## Enlaces con HTML
 Ya que hicimos la maquetación, vamos a hacer que todos los enlaces funcionen y que podamos tener navegación en nuestro website
 
-Asimismo, agregar el enlace a "Leer Más" de los artículos para que nos redirija a la página de *article*
+Asimismo, agregar el enlace a "Leer Más" de los artículos para que nos redirija a la página de *article*, y el botón de ir al blog.
 
+--------
 Posterior a esto, vamos a trabajar el tema de responsive para que nuestro sitio se adapte a diferentes tamaños de pantalla.
