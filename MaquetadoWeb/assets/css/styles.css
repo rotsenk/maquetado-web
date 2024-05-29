@@ -136,23 +136,23 @@ body {
   transition: 300ms all;
 }
 
-.btn-white:hover{
+.btn-white:hover {
   background: #444;
   color: white;
 }
 
-#slider.slider-small{
+#slider.slider-small {
   height: 150px;
 }
 
-#slider.slider-small h1{
+#slider.slider-small h1 {
   margin-top: 0.2px;
   padding: 0px;
   padding-top: 50px;
 }
 
 /* Maquetar el contenido central */
-#content{
+#content {
   width: 70%;
   float: left;
   min-height: 650px;
@@ -160,19 +160,19 @@ body {
 }
 
 /* Maquetar el contenido lateral */
-#sidebar{
+#sidebar {
   width: 25%;
   float: left;
 }
 
 /* Estilos para cada uno de los sidebar-item */
-.sidebar-item{
+.sidebar-item {
   background: #f7f7f7;
   padding: 20px;
   margin-top: 30px;
 }
 
-.sidebar-item h3{
+.sidebar-item h3 {
   text-transform: uppercase;
   font-size: 18px;
   margin: 0px;
@@ -182,7 +182,7 @@ body {
 }
 
 /* CSS para el formulario de búsqueda y botones del sitio web */
-.btn{
+.btn {
   display: block;
   background: black;
   color: white;
@@ -197,37 +197,37 @@ body {
   cursor: pointer;
 }
 
-.sidebar-item .btn{
+.sidebar-item .btn {
   margin: 0px auto;
   margin-top: 10px;
 }
 
-.btn-success{
-  background: rgba(22, 121, 171, 1) 39%
+.btn-success {
+  background: rgba(22, 121, 171, 1) 39%;
 }
 
-.btn-success:hover{
+.btn-success:hover {
   background-color: black;
 }
 
 /* Maquetar inputs */
-input[type="text"], 
-textarea{
-    width: 100%;
-    height: 30px;
-    border: 1px solid #eee;
-    padding: 3px;
-    margin-bottom: 5px;
-    transition: 300ms all;
+input[type="text"],
+textarea {
+  width: 100%;
+  height: 30px;
+  border: 1px solid #eee;
+  padding: 3px;
+  margin-bottom: 5px;
+  transition: 300ms all;
 }
 
-input[type="text"]:focus, 
-textarea:focus{
-    box-shadow: 0px 0px 3px #ccc inset;
+input[type="text"]:focus,
+textarea:focus {
+  box-shadow: 0px 0px 3px #ccc inset;
 }
 
 /* footer */
-#footer{
+#footer {
   background: #e6e6e6;
   width: 100%;
   height: 70px;
@@ -235,13 +235,13 @@ textarea:focus{
   color: #484848;
 }
 
-#footer p{
+#footer p {
   margin: 0px;
   padding: 0px;
 }
 
 /* Maquetación de sección de artículos */
-.article-item{
+.article-item {
   width: 100%;
   border-bottom: 1px solid #eee;
   padding-bottom: 20px;
@@ -249,7 +249,7 @@ textarea:focus{
   text-align: left;
 }
 
-.article-item .image-wrap{
+.article-item .image-wrap {
   width: 130px;
   height: 130px;
   float: left;
@@ -258,12 +258,12 @@ textarea:focus{
   overflow: hidden; /* para ocultar todo lo que sobresalga de la imagen*/
 }
 
-.article-item .image-wrap img{
+.article-item .image-wrap img {
   height: 100%;
   text-align: center;
 }
 
-.article-item h2{
+.article-item h2 {
   display: block;
   width: 100%;
   padding: 0px;
@@ -271,65 +271,64 @@ textarea:focus{
   margin-bottom: 7px;
 }
 
-.article-item .date{
+.article-item .date {
   display: block;
   width: 100%;
   color: rgb(122, 122, 122);
 }
 
-.article-item a{
+.article-item a {
   display: block;
   color: #444;
   text-decoration: none;
   margin-top: 10px;
 }
 
-.article-item a:hover{
+.article-item a:hover {
   text-decoration: underline;
 }
 
-.subheader{
+.subheader {
   font-size: 32px;
   border-bottom: 1px solid #eee;
   padding-bottom: 5px;
 }
 
 /* Estilos a detalles de artículo */
-.article-detalle .image-wrap{
+.article-detalle .image-wrap {
   float: none;
   width: 100%;
   height: 300px;
 }
 
-.article-detalle .image-wrap img{
+.article-detalle .image-wrap img {
   float: none;
   width: 100%;
   height: auto;
 }
 
-.article-detalle .subheader{
+.article-detalle .subheader {
   margin-bottom: 10px;
   margin-top: 10px;
   border: none;
 }
 
 /* Estilos formulario */
-.mid-form{
+.mid-form {
   width: 50%;
   margin: 0px auto;
 }
 
-.mid-form label{
+.mid-form label {
   display: block;
   float: left;
   text-align: left;
   margin-top: 10px;
   margin-bottom: 5px;
   font-size: 17px;
-
 }
 
-textarea{
+textarea {
   width: 100%;
   height: 150px;
   min-width: 100%;
@@ -338,25 +337,138 @@ textarea{
   max-height: 300px;
 }
 
-.radiobuttons{
+.radiobuttons {
   margin-top: 10px;
   margin-bottom: 10px;
   float: left;
 }
 
 /* Responsive */
-/*desde la anchura 963px hasta la anchura 1488px de pantalla*/
+/*desde la anchura 1314px hasta la anchura 1488px de pantalla*/
 @media (max-width: 1488px) {
-  body {
-    /* fondo será rojo */
-    background-color: red;
+  .center {
+    width: 85%;
   }
 }
 
-/*desde la anchura 0px hasta la anchura 963px de pantalla*/
-@media (max-width: 963px) {
-  body {
-    /* fondo será verde */
-    background-color: rgb(0, 255, 0);
+/*desde la anchura 797px hasta la anchura 1314px de pantalla*/
+@media (max-width: 1314px) {
+  .center {
+    width: 95%;
+  }
+
+  #menu ul{
+    width: auto; /* anchura automática, la que el navegador nos dé */
+  }
+
+  #logo{
+    float: none; /*no flote a ningún lado, lo deje tal cual */
+    font-size: 25px;
+  }
+
+  #logo img {
+    height: 60px;
+  }
+
+}
+
+/*desde la anchura 497px hasta la anchura 797px de pantalla*/
+@media (max-width: 797px) {
+  /* .center {
+    width: 95%;
+  /* } */ /* quitamos este porque ya lo heredamos del media querie de arriba */
+
+  #logo{
+    float: none; /*no flote a ningún lado, lo deje tal cual */
+    width: 270px;
+    margin: 0px auto;
+    margin-top: 35px;
+    font-size: 25px;
+  }
+
+  #logo img {
+    display: block;
+    float: left;
+    height: 55px;
+  }
+
+  #menu,
+  #menu ul {
+    clear: both; /* que se limpie los posibles flotados */
+    float: none; /*no flote a ningún lado, lo deje tal cual */
+    width: 100%;
+    margin: 0px; 
+    padding: 0px;
+    line-height: 50px;
+  }
+
+  /* modifica la barra lateral */
+  #content {
+    float: none;
+    width: 100%;
+  }
+
+  #sidebar {
+    float: none;
+    width: 60%;
+    margin: 0px auto;
+    margin-bottom: 50px;
+  }
+
+  #slider h1 {
+    padding-top: 115px;
+    font-size: 25px;
+  } 
+
+  /* modifica el formulario */
+  .mid-form {
+    width: 70%;
+  }
+
+}
+
+/*desde la anchura 0px hasta la anchura 497px de pantalla*/
+@media (max-width: 497px) {
+  #header {
+      min-height: 130px;
+      overflow: hidden; /* si se sale algún elemento del menu, pues que lo oculte */
+      /* aunque lo optimo es que cuando el menú se encoge, se convierte en hamburguesa */
+  }
+
+  #menu,
+  #menu ul {
+    line-height: 50px;
+  }
+  
+  #menu,
+  #menu ul li {
+    /* para que quepan más elementos dentro del menú */
+    margin-left: 7px;
+    margin-right: 7px;
+  }
+
+  #slider {
+    height: 180px;
+  }
+
+  #slider h1 {
+    font-size: 19px;
+    padding-top: 30px;
+  }
+
+  #slider .btn-white {
+    margin-top: 20px;
+    width: 25%;
+    height: 10%;
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  #slider.slider-small {
+    height: 100px; /* para la sección del blog */
+  }
+
+  #slider.slider-small h1 {
+    padding-top: 35px;
   }
 }
