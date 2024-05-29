@@ -343,3 +343,20 @@ textarea{
   margin-bottom: 10px;
   float: left;
 }
+
+/* Responsive */
+/*desde la anchura 963px hasta la anchura 1488px de pantalla*/
+@media (max-width: 1488px) {
+  body {
+    /* fondo será rojo */
+    background-color: red;
+  }
+}
+
+/*desde la anchura 0px hasta la anchura 963px de pantalla*/
+@media (max-width: 963px) {
+  body {
+    /* fondo será verde */
+    background-color: rgb(0, 255, 0);
+  }
+}
