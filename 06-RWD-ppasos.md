@@ -362,3 +362,14 @@ y todo el css del responsive sería así:
 ```
 Le quitamos los colores de fondo, porque no son necesarios, solamente era para verificar que se cumplan las reglas de las media queries.
 Hemos hecho un responsive rápido, a modo de que la maquetación dé la mejor cara, sin embargo se puede mejorar mucho, cada uno puede adaptarla a las necesidades personales y del sitio.
+
+# Configurar Viewport para mejorar el Responsive
+Ahora que tenemos todo bien adaptado y bien maquetado con html css3 y el responsive.
+pero claro ahora mismo lo tenemos en vista de responsive entonces qué pasa que si tú por ejemplo abres tu página web en un móvil? 
+vas a ver que no se está adaptando correctamente a la pantalla, te va a pasar esto de acuerdo si le das aquí al desplegable, podemos seleccionar algún dispositivo móvil que ya esté preconfigurado por ejemplo en Chrome si yo selecciono el `Galaxy S5`, si yo lo selecciono se vería su tamaño de pantalla o si selecciono por ejemplo un `iPhone X` se sería el tamaño de pantalla del teléfono entonces qué está pasando aquí? cómo se vería realmente la pantalla del iphone? que todo se ve muy pequeño vale todo se ve en una escala que sí está más o menos adaptado pero no se ve digamos en la escala original del diseño adaptable. de acuerdo? 
+pero claro si lo cambiamos a un `iPhone x` vemos que la escala digamos que es bastante diferente aunque lo pongamos a digamos que a un tamaño "original", hay cosas que se ven muy grandes entonces lo que tenemos que hacer es configurar el `Viewport`, este lo que hace es que realmente esté responsive y se adapte bien a cada una de las pantallas en el cual cargue la página web entonces para hacer esto lo que tenemos que hacer es abrir nuestros archivos *.html* para esto se aplica cualquier tipo de web, debajo de la `meta charset` 
+podemos meter viewport okay? y le vamos a indicar todo para que luego podemos ver proporcionado porque la escala inicial la hemos modificado.
+
+`<meta name="viewport" content="width=device-width, initial-scale=1.0">`
+
+Con esto, ya podemos ver la adaptabilidad en la escala original, relativa a las pantallas.
